@@ -1,0 +1,6 @@
+@GirlFlixApi_HostAddress = http://localhost:5270
+
+GET {{GirlFlixApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
