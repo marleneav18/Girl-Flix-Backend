@@ -19,7 +19,7 @@ Objetivo: Implementar la base de datos en el proyecto.
 ### 🔹 2. Ejecutar el backend (girlflix-api) - Asegúrate de tener una base de datos corriendo en Docker o SQL Server (puerto 5270).
 ### 🔹 3. Ejecutar el frontend (girlflix-frontend) - Abre el navegador en: http://localhost:54800.
 
-##Mockup Inicial
+## Mockup Inicial
 ![image](https://github.com/user-attachments/assets/b909f5f1-2ba6-48ab-91d3-f4710ef5ed4f)
 
 ## 🚀 Tecnologías usadas
@@ -38,16 +38,7 @@ Objetivo: Implementar la base de datos en el proyecto.
 4. **Conecté Angular al backend** usando `HttpClient` y controlé la sesión del usuario con `localStorage`.
 5. **Subí todo a GitHub** organizando el proyecto en dos carpetas (`girlflix-frontend` y `girlflix-api`).
 
-##Modelo entidad-relación
-
-┌─────────────┐            ┌─────────────────┐
-│   Usuario   │            │    Favorito     │
-├─────────────┤            ├─────────────────┤
-│ Id (PK)     │◄───────────┤ UsuarioId (FK)  │
-│ Usuario     │            │ PeliculaId      │
-│ Contraseña  │            │ FechaAgregado   │
-└─────────────┘            │ Id (PK)         │
-                           └─────────────────┘
+## Modelo entidad-relación
 
 ![image](https://github.com/user-attachments/assets/2d10c800-0b9f-4ed1-9f9f-e1b25eb06845)
 
