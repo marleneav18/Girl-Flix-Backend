@@ -1,0 +1,14 @@
+<div class="card h-100">
+  <img [src]="pelicula.imagen" class="card-img-top" [alt]="pelicula.titulo">
+  <div class="card-body d-flex flex-column">
+    <h5 class="card-title">{{ pelicula.titulo }}</h5>
+    <p class="card-text">{{ pelicula.descripcion }}</p>
+    <div class="mt-auto d-flex justify-content-between">
+      <button class="btn btn-primary btn-lg btn-custom">Ver</button>
+      <div>
+        <button class="btn btn-danger me-2 btn-lg" [ngClass]="pelicula.like ? 'bi-heart-fill' : 'bi-heart'" (click)="toggleLike()"></button>
+        <button class="btn btn-warning btn-lg" [ngClass]="pelicula.favorito ? 'bi-star-fill' : 'bi-star'" (click)="toggleFavorito()"></button>
+      </div>
+    </div>
+  </div>
+</div>

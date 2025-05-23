@@ -1,0 +1,21 @@
+<main>
+ 
+<div class="search-container">
+    <div class="input-group">
+        <input type="text" [(ngModel)]="busqueda" class="form-control" placeholder="Buscar película..."/>
+        <span class="input-group-text">
+            <i class="bi bi-search"></i>
+        </span>
+    </div>
+</div>
+
+<div class="container mt-4">
+    <div class="row">
+      <div class="col-12 col-sm-6 col-md-4 mb-4 d-flex justify-content-center" *ngFor="let pelicula of peliculasFiltradas">
+        <app-tarjeta-pelicula [pelicula]="pelicula"></app-tarjeta-pelicula>
+      </div>
+    </div>
+</div>
+
+</main>
+

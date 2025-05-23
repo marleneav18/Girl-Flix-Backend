@@ -1,0 +1,10 @@
+:host {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #e7e3ea;
+    background: url('/assets/images/fondo.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}

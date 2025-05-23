@@ -1,0 +1,18 @@
+<!--- Header --->
+<nav class="navbar navbar-expand-lg p-2" id="colorBarra">
+    <a class="navbar-brand" routerLink="/" id="colorLetra">
+    <img src="assets/images/logo.png" alt="Logo" width="35" height="35" class="d-inline-block align-text-top">
+        GirlFlix
+    </a>
+    <button class="btn btn-dark mx-2 active" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Inicio</button>
+    <button class="btn btn-dark mx-2" routerLink="/favoritos" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Favoritos</button>
+    <button class="btn btn-dark mx-2" routerLink="/series" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Series</button>
+    <button class="btn btn-dark mx-2" routerLink="/peliculas" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Películas</button>
+    <button class="btn btn-dark mx-2" routerLink="/buscar" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Buscar</button>
+    
+
+    <a class="btn ms-auto btn-primary" routerLink="/login">
+        <i class="bi bi-box-arrow-in-right me-2"></i> Cerrar Sesión
+    </a>
+
+</nav>
